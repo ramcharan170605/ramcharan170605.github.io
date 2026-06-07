@@ -23,6 +23,13 @@ export const targetElements = [
     },
   },
   {
+    element: ".hero-description",
+    animation: {
+      delay: 750,
+      origin: window.innerWidth > 768 ? "left" : "bottom",
+    },
+  },
+  {
     element: ".hero-cta",
     animation: {
       delay: 1000,
